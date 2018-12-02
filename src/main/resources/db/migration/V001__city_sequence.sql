@@ -1,0 +1,3 @@
+CREATE SEQUENCE city_id_seq START WITH 10000;
+
+ALTER TABLE city ALTER id SET DEFAULT NEXTVAL('city_id_seq');
